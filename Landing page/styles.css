@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(images/bg\,png.avif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: #f1eaea;
+}
+
+.head {
+
+        /* background-color: rgba(132, 95, 104, 255)
+    border: 2px solid rgb(151, 122, 197);
+        text-overflow: hidden;*/
+}
+
+.logo {
+
+    display: inline-block;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img1 {
+
+    overflow: hidden;
+    border-radius: 80px;
+    display: inline;
+    width: 50px;
+    height: 20px;
+}
+
+.logo>div {
+
+    margin-left: 10px;
+}
+
+
+.menu {
+
+    margin: auto 400px;
+    /* border: 2px solid black; */
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+ul li {
+
+    display: inline;
+    padding: 3px 5px;
+    margin: 3px 6px;
+    text-align: center;
+
+}
+
+a {
+    color: #e6dddd;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+a:hover {
+
+
+    border-radius: 20px;
+    background-color: #a782c050;
+    color: yellow;
+}
+
+a:visited {
+
+    background-color: rgb(124, 29, 202)
+}
+
+
+.contact {
+
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+
+    background: none;
+    cursor: pointer;
+    color: #dfcbcb;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    border: none;
+}
+
+.btn:hover {
+
+    border-radius: 20px;
+    background-color: #713a9650;
+    color: yellow;
+}
+
+.ctn{
+    text-align-last: center;
+    /* margin: 90px 86px; */
+    position: relative;
+    top: 20vh;
+    left: 60vh;
+    padding: 28px 65px;
+    border: 2px solid #fff;
+    width: 30%;
+    border-radius: 60px;
+    display: block;
+}
+.form-group input{
+    margin: 6px;
+    padding: 2px 2px;
+    text-align: center;
+    background: none;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    
+}
